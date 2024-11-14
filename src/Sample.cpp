@@ -16,9 +16,9 @@
 using namespace std;
 namespace CharacteristicGenerator{
     Sample::Sample(){
-        kidSample.open("Schoolkid_Sample.txt");
-        studSample.open("Student_Sample.txt");
-        emplSample.open("Employee_Sample.txt");
+        kidSample.open("samples/Schoolkid_Sample.txt");
+        studSample.open("samples/Student_Sample.txt");
+        emplSample.open("samples/Employee_Sample.txt");
     }
     Sample::~Sample(){
         kidSample.close();
